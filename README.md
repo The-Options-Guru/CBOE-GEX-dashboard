@@ -1,5 +1,8 @@
 # GEX Dashboard
 
+This is the dashboard created in this video
+https://youtu.be/3tWRSCsSQ1I
+
 A Streamlit dashboard that estimates options **gamma exposure (GEX)** for an index, ETF or stock, using CBOE's free delayed quotes (about 15 minutes behind).
 
 ## Features
