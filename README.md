@@ -17,9 +17,11 @@ A Streamlit dashboard that estimates options **gamma exposure (GEX)** for an ind
 Requires Python 3.10 or newer.
 
 ```bash
-pip install -r requirements.txt
-streamlit run app.py
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
 ```
+
+On macOS or Linux, use `python3` if `python` isn't found.
 
 Then open http://localhost:8501. Enter a ticker in the sidebar, for example `SPX`, `NDX`, `SPY`, `QQQ` or `AAPL`.
 
